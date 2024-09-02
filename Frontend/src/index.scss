@@ -130,42 +130,48 @@
   }
 }
 
-.blog-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 10px;
-}
+.all-blog-list {
+  margin-top: 3rem;
 
-.blog-table th,
-.blog-table td {
-  border: 1px solid #ccc;
-  padding: 10px;
-  text-align: left;
-}
+  .blog-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
 
-.blog-title {
-  font-size: 18px;
-  font-weight: bold;
-}
+    thead {
+      background-color: #f1f1f1;
+    }
+  }
+  .blog-table th,
+  .blog-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
 
-.blog-actions {
-  text-align: right;
-}
+    .blog-title {
+      font-size: 18px;
+      font-weight: bold;
+    }
 
-.edit-button,
-.delete-button {
-  padding: 5px 10px;
-  border: none;
-  cursor: pointer;
-  margin-left: 5px;
-}
+    .blog-actions {
+      text-align: right;
+    }
+    .edit-button,
+    .delete-button {
+      padding: 5px 10px;
+      border: none;
+      cursor: pointer;
+      margin-left: 5px;
+    }
+  }
 
-.edit-button {
-  background-color: #4caf50;
-  color: white;
-}
+  .edit-button {
+    background-color: #4caf50;
+    color: white;
+  }
 
-.delete-button {
-  background-color: #f44336;
-  color: white;
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+  }
 }

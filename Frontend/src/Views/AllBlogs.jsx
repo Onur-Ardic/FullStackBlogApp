@@ -1,26 +1,32 @@
 const AllBlogs = () => {
     return (
-        <table className="blog-table">
-            <thead>
-                <tr>
-                    <th className="blog-title">Title</th>
+        <section className="all-blog-list">
+            <div className="container">
+                <table className="blog-table">
 
-                    <th className="blog-actions">Actions</th>
-                </tr>
-            </thead>
+                    <thead>
+                        <tr>
+                            <th className="blog-title">Title</th>
 
-            <tbody>
-                <tr>
-                    <td>AllBlogs</td>
+                            <th className="blog-actions">Actions</th>
+                        </tr>
+                    </thead>
 
-                    <td>
-                        <button className="edit-button">Düzenle</button>
+                    <tbody>
+                        <tr>
+                            <td>AllBlogs</td>
 
-                        <button className="delete-button">Sil</button>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+                            <td>
+                                <button className="edit-button">Düzenle</button>
+
+                                <button className="delete-button">Sil</button>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+        </section>
     )
 }
 
