@@ -77,8 +77,8 @@ app.listen(port, () => {
 ```
 
 - İlk olarak backend kısmında kullanılacak olan routerları ve db ye sorgu göndermek için servisleri oluşturacağız
-- Bunun için routes klasörü altında blogs.js dosyasını oluşturacağız
-- İçine aşağıdaki kodları yazacağız
+- Bunun için routes klasörü altında blogs.js ve services klasörü altında blogService.js dosyasını oluşturacağız
+- İçine aşağıdaki kodları en üstte yorum satırları olarak belirttğim dosyaları açıp yazacağız
 
 ```bash
 //service/blogService.js
