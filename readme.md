@@ -1,6 +1,6 @@
 ## FullStack Blog App
 
-- Merhaba arkadaşlar bu repo ile bir blog uygulaması geliştireceğiz ancak sadece readme dosyasına bakarak yapmak yerine kodlarıda inceleyerek çalışırsanz daha anlaşılır olacaktır
+- Merhaba arkadaşlar bu repo ile bir blog uygulaması geliştireceğiz ancak sadece readme dosyasına bakarak yapmak yerine kodlarıda inceleyerek çalışırsanız daha anlaşılır olacaktır
 
 - Projede çok fazla css yazmayacağım sadece temel bir blog listesi yapacağım bu sayede mantığını anlamak daha kolay olacaktır ek olarak css değil scss kullanacağım
 

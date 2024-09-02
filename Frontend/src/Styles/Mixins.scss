@@ -1,0 +1,10 @@
+@mixin Flexible($flex, $justify, $align) {
+  display: $flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin Typography($font-size, $font-weight) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+}

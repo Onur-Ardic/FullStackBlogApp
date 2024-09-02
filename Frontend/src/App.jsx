@@ -1,5 +1,10 @@
 import { useEffect, useState } from 'react'
-import './App.css'
+import './index.scss'
+import BlogsWrapper from './Components/Home/Navbar/Blogs/BlogsWrapper'
+import BlogDetails from './Views/BlogDetails'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import CreateBlog from './Views/CreateBlog'
+import AllBlogs from './Views/AllBlogs'
 
 function App() {
   const [blogs, setBlogs] = useState([])
@@ -23,14 +28,16 @@ function App() {
   }, [])
 
   return (
-    <div>
-      <h1>Blog Listesi</h1>
-      <ul>
-        {blogs.map(blog => (
-          <li key={blog.id}>{blog.title}</li>
-        ))}
-      </ul>
-    </div>
+    <Router>
+      <main>
+        <Routes>
+          <Route path="/" element={<BlogsWrapper blogs={blogs} />} />
+          <Route path="/blog/:id" element={<BlogDetails />} />
+          <Route path="/createblog" element={<CreateBlog />} />
+          <Route path="/allblogs" element={<AllBlogs />} />
+        </Routes>
+      </main>
+    </Router>
   )
 }
 
