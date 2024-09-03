@@ -14,7 +14,7 @@
 
 ### Backend
 
-- MYSQL ile veritabamı tablo yapısını bu şekilde kurdum
+- MYSQL ile veritabanı tablo yapısını bu şekilde kurdum
 
 ![alt text](image-1.png)
 
