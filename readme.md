@@ -534,7 +534,9 @@ export default AllBlogs
 
 ```
 
-## Projemizi başarılı bir şekilde tamamladık. Eğer sizlere yardımcı olabildiysem ne mutlu bana. Size ve sevdiklerinize sağlık günler dilerim, iyi kodlamalar...
+## Ufak tefek css düzenlemeleri yaparak projeyi tamamladım dokümantosyon başında dediğim gibi css tarafını siz kendi zevkinize göre düzenleyebilirsiniz. Eğer sizlere yardımcı olabildiysem ne mutlu bana. Size ve sevdiklerinize sağlık günler dilerim, iyi kodlamalar...
+
+-
 
 ---
 
