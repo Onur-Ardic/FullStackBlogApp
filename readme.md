@@ -14,7 +14,7 @@
 
 ### Backend
 
-- MYSQL ile veritabanı oluşturduğunuzda tablo yapısını kurdum
+- MYSQL ile veritabamı tablo yapısını bu şekilde kurdum
 
 ![alt text](image-1.png)
 
@@ -536,9 +536,7 @@ export default AllBlogs
 
 ## Ufak tefek css düzenlemeleri yaparak projeyi tamamladım dokümantosyon başında dediğim gibi css tarafını siz kendi zevkinize göre düzenleyebilirsiniz. Eğer sizlere yardımcı olabildiysem ne mutlu bana. Size ve sevdiklerinize sağlık günler dilerim, iyi kodlamalar...
 
--
-
----
+- ***
 
 ## Proje Resimleri
 
