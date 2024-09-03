@@ -31,4 +31,22 @@ router.get('/api/blogs/:id', async (req, res) => {
   }
 })
 
+router.get('api/allblogs', async (req, res) => {
+  try {
+    const blogs = await getAllBlogs()
+    res.json(blogs)
+  } catch {
+    res.status(500).json({ error: 'Internal Server Error' })
+  }
+})
+
+router.delete('/api/blogs/:id', async (req, res) => {
+  try {
+    const result = await blogService.deleteBlog(req.params.id)
+    res.json(result)
+  } catch (error) {
+    res.status(500).json({ error: 'Internal Server Error' })
+  }
+})
+
 module.exports = router

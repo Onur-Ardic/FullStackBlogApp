@@ -18,8 +18,14 @@ const createBlog = async (title, description, content) => {
   return result
 }
 
+const deleteBlog = async (id) => {
+  const [result] = await db.query('DELETE FROM blogs WHERE blogsid = ?', [id])
+  return result
+}
+
 module.exports = {
   getAllBlogs,
   getBlogById,
   createBlog,
+  deleteBlog,
 }
